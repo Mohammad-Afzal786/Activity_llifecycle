@@ -57,7 +57,7 @@ public class MainActivity2 extends AppCompatActivity {
         @Override
         protected void onDestroy() {
             Toast toast=Toast.makeText(this,"Sec On Destroy",Toast.LENGTH_SHORT);
-            toast.setGravity(Gravity.CENTER,14,14);
+            toast.setGravity(Gravity.CENTER,16,16);
             toast.show();
             super.onDestroy();
         }
