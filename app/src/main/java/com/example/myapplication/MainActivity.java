@@ -32,14 +32,14 @@ Button button;
     @Override
     protected void onStart() {
         Toast toast=Toast.makeText(this,"First On Start",Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.BOTTOM,4,4);
+        toast.setGravity(Gravity.BOTTOM,2,2);
         toast.show();
         super.onStart();
     }
     @Override
     protected void onResume() {
         Toast toast=Toast.makeText(this,"First On Resume",Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.BOTTOM,6,6);
+        toast.setGravity(Gravity.BOTTOM,2,2);
         toast.show();
         super.onResume();
 
@@ -47,7 +47,7 @@ Button button;
     @Override
     protected void onPause() {
         Toast toast=Toast.makeText(this,"First On Pause",Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.BOTTOM,8,8);
+        toast.setGravity(Gravity.BOTTOM,2,2);
         toast.show();
         super.onPause();
 
@@ -55,7 +55,7 @@ Button button;
     @Override
     protected void onStop() {
         Toast toast=Toast.makeText(this,"First On Stop",Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.BOTTOM,10,10);
+        toast.setGravity(Gravity.BOTTOM,2,2);
         toast.show();
 
         super.onStop();
@@ -63,7 +63,7 @@ Button button;
     @Override
     protected void onRestart() {
         Toast toast=Toast.makeText(this,"First On Restart",Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER,12,12);
+        toast.setGravity(Gravity.BOTTOM,2,2);
         toast.show();
         super.onRestart();
 
@@ -71,7 +71,7 @@ Button button;
     @Override
     protected void onDestroy() {
         Toast toast=Toast.makeText(this,"First On Destroy",Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.CENTER,14,14);
+        toast.setGravity(Gravity.BOTTOM,2,2);
         toast.show();
         super.onDestroy();
     }
